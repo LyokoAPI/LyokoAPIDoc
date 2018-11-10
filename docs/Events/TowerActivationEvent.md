@@ -7,6 +7,7 @@ Since it uses an ITower, it's fairly read-only.
 ##Calling
 This events has a few parameters you can supply in Call()
 There are important differences between them, so read carfully.
+*note: It will not be called if the supplied tower isnt activated.*
 
 ###Call with ITower
 *note: we dont generally recommend this*
