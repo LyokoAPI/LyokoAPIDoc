@@ -1,2 +1,0 @@
-mkdocs-cinder
-jinja2==2.9.6
