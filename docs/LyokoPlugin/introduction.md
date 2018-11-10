@@ -14,7 +14,7 @@ This will be recognized by the Application as your plugin.
 ##OnEnable()
 This is the method that will 'start' your plugin.
 In it, you should initialize all the variables you wish to use,
-and register your listeners. (see [EventSummary](../LyokoAPI/EventSummary.md) for more info)
+and register your listeners. (see [EventSummary](../LyokoAPI/Events/EventSummary.md) for more info)
 If something went wrong during the start process, return false.
 **If you return false in OnEnable(), the PluginLoader will try to run OnDisable(), please make sure that this works properly.**
 
@@ -48,4 +48,4 @@ LyokoLogger.Log("YourpluginName","yourmessage");
 It will appear in the log as "[PluginName] message"
 You can find a plugin that logs these messages to a commandConsole window in the plugin list.
 
-However, if you want to make your own logging plugin, you can do so by subscribe to it with ``LyokoLogger.Subscribe(method)``, it takes a ``void Method(string message)``. See  [EventSummary](../LyokoAPI/EventSummary.md) for more info.
+However, if you want to make your own logging plugin, you can do so by subscribe to it with ``LyokoLogger.Subscribe(method)``, it takes a ``void Method(string message)``. See  [EventSummary](../LyokoAPI/Events/EventSummary.md) for more info.
