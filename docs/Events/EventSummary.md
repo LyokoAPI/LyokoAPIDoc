@@ -34,6 +34,25 @@ public Listener(){
   Console.WriteLine("Tower {0} {1}",tower.Sector.Name,tower.Number));
 }
 ```
+##Unsubcribing
+As a dev, you might want to stop listening to an event.
+For example, it's good practice to stop listening if your Plugin is disabled.
+
+To unsubscribe from an event, you need to have it stored in a variable.
+The easiest way to do this is:
+```Java
+var listener;
+public void StartListening(){
+  listener = SomeEvent.Subscribe(foo => foo.Bar());
+}
+public void StopListening(){
+  SomeEvent.Unsubcribe(listener);
+}
+
+```
+
+
+
 ##Calling
 *Note for pluginDevs: verify with the ApplicationDev wether or not you are allowed to call Events by yourself*
 
