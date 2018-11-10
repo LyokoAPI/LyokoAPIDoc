@@ -1,5 +1,2 @@
-<<<<<<< HEAD
 mkdocs-cinder
-=======
-pip install -r mkdocs-cinder
->>>>>>> 8ace713ba00e9d85ae1eea4557949babd4e78ea6
+
