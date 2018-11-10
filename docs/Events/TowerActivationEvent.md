@@ -31,4 +31,7 @@ This approach is almost identical to:
 ###Call with strings
 You can also call the event with only strings.
 just like before, you wont be giving any access to your own tower class this way.
+
 ``TowerActivationEvent.Call("Lyoko","ice",1,"XANA");``
+
+This __will__ throw an exception if the activatior is invalid, so be sure to get it right, or to put it in a try/catch
