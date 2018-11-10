@@ -5,4 +5,4 @@ An interface representing a Virtualworld
 *hint: all of these are read-only*
 Name - the name of this IVirtualWorld
 isLyoko - wether or not this world is Lyoko
-Sectors - A list of ISectors that belong to this IVirtualworld
+Sectors - A list of [ISectors](./ISector.md) that belong to this IVirtualworld

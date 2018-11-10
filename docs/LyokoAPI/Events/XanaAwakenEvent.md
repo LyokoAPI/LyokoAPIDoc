@@ -5,7 +5,7 @@ It also provides the tower it started the attack with.
 
 ##Subscribing
 This event expects a ``void Method(Itower)``
-The tower is the one that initiated the attack.
+The [ITower](../../VirtualStructures/Interfaces/Itower.md) is the one that initiated the attack.
 
 ##Subscribing
 To call this event, you need to supply the ITower that started the attack.
