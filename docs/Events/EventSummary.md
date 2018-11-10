@@ -34,3 +34,21 @@ public Listener(){
   Console.WriteLine("Tower {0} {1}",tower.Sector.Name,tower.Number));
 }
 ```
+##Calling
+*Note for pluginDevs: verify with the ApplicationDev wether or not you are allowed to call Events by yourself*
+
+As an Application dev, you'll want to notify your plugins (or other parts of your application) of certain events.
+LAPI is designed to make this simple.
+Do remember that if you pass an object, like a Tower to an event, listening methods will be able to change that object. (Unless you set variables to be internal, which you should do anyways)
+
+This is why we recommend you use LAPI's built in classes to create objects based on your code (see ITower and APITower for more info)
+That is, unless you want your Applications' data accessible.
+
+Calling an event is simple:
+``SomeEvent.Call(//parameters)``
+
+For example, you could do:
+```Java
+TowerDeactivationEvent.Call(new APITower("Lyoko","ice",1));
+```
+You can find more examples on the specific event pages.
