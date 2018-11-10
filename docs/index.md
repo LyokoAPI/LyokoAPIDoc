@@ -1,5 +1,5 @@
 # Welcome to the LyokoAPI Docs
-
+__**some links are broken atm, we're aware of the issue**__
 LyokoAPI is a project that aims to connect Applications with a Code Lyoko theme
 connect with each other, primarily in the form of Plugins.
 
