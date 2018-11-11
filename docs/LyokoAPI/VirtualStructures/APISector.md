@@ -7,7 +7,7 @@ Identical to [ISector](./Interfaces/ISector.md)
 ##Constructors
 This class has two constructors:
 
-```csharp
+```C#
 APISector(IVirtualWorld world, string name, int towers = 0);
 ```
 This implies that the sector belongs to an existing [IVirtualWorld](./Interfaces/IVirtualWorld.md).  

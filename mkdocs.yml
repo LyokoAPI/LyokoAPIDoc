@@ -1,3 +1,4 @@
 site_name: LyokoAPI Docs
 theme:
-  name: readthedocs
+  name: mkdocs
+  hljs_style: school-book
