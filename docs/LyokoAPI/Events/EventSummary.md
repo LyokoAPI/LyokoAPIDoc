@@ -18,7 +18,7 @@ You can subscribe to an event with:
 
 In practice, you can use a method or a lambda.
 for example:
-```Java
+```csharp
 public Listener(){
   TowerActivationEvent.Subscribe(onTowerActivation);
 }
@@ -28,7 +28,7 @@ public void onTowerActivation(ITower tower){
 }
 ```
 Can also be written as:
-```Java
+```csharp
 public Listener(){
   TowerActivationEvent.Subscribe(tower =>
   Console.WriteLine("Tower {0} {1}",tower.Sector.Name,tower.Number));
@@ -41,7 +41,7 @@ For example, it's good practice to stop listening if your Plugin is disabled.
 
 To unsubscribe from an event, you need to have it stored in a variable.
 The easiest way to do this is:
-```Java
+```csharp
 var listener;
 public void StartListening(){
   listener = SomeEvent.Subscribe(foo => foo.Bar());

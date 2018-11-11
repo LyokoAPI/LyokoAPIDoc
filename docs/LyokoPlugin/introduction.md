@@ -42,7 +42,7 @@ you can use LyokoLogger.
 It works much like an event.
 
 You can log something by calling
-```Java
+```csharp
 LyokoLogger.Log("YourpluginName","yourmessage");
 ```
 It will appear in the log as "[PluginName] message"

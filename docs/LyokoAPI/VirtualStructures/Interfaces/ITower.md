@@ -10,7 +10,7 @@ Activator - the current [APIActivator](../../VirtualStructures/APIActivator.md) 
 ##Notes
 ITower does not have a public setter on Activator, so if it is used through the interface,
 like so:
-```Java
+```csharp
 ITower tower = new APITower("lyoko","ice","1");
 ```
 You can not change its Activator directly.

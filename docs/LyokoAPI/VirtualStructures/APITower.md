@@ -9,12 +9,12 @@ with the following differences:
 
 ##Constructors
 This class has two constructors:
-```Java
+```csharp
 APITower(int number, ISector sector);
 ```
 this implies that the APITower belongs to an existing [ISector](./Interfaces/ISector.md).
 
-```Java
+```csharp
 APITower(string vworld, string sector, int number);
 ```
 This not only creates a new APITower, **but it also creates a new ISector with a new IVirtualWorld**

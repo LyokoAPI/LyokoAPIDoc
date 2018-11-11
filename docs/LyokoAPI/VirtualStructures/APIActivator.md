@@ -14,7 +14,7 @@ The methods below can also be applied to a specific activator, like ``APIActivat
 ###ParseActivator
 Accepts a string, returns an APIActivator
 Throws a FormatException if the string is invalid.
-```Java
+```csharp
 APIActivator activator;
 try{
   activator = LyokoParser.ParseActivator("XANA")
@@ -25,7 +25,7 @@ try{
 
 ###TryParseActivator
 Accepts a string, returns a boolean if its a valid Activator. If true, stores it in a given variable.
-```Java
+```csharp
 APIActivator activator;
 if (!LyokoParser.TryParseActivator("XANA", out activator)) {
   LyokoLogger.Log(plugin.Name,"Not a valid activator!")
