@@ -29,6 +29,6 @@ Calling this method will disable all plugins.
 Calling this method will enable all plugins.
 *note: there's no guarantee that a plugin will actually be enabled.* <br>
 
-##Properties:
+##Properties
 Plugins - A List of Plugins that are known.<br>
 *Note: these can be both enabled and disabled.*
