@@ -10,8 +10,8 @@ We will call adding a listener **Subscribing**.
 
 A method that subscribes to an event must be of a certain format.
 For example, a TowerEvent requires a Tower parameter.
-The format of a method is called a **delegate** in C#
-*Hint: Yuu can find all the delegetes on the pages that describe the events*
+The format of a method is called a **delegate** in C#<br>
+*Hint: You can find all the delegetes on the pages that describe the events*
 
 You can subscribe to an event with:
 ``SomEvent.Subscribe(method)``

@@ -1,10 +1,10 @@
 #Xana Awaken Event
-This event is called when xana starts his attack.
-It also provides the tower it started the attack with.
+This event is called when xana starts his attack.<br>
+It also provides the tower it started the attack with.<br>
 *note: It's called by APISuperscan if it has been created.*
 
 ##Subscribing
-This event expects a ``void Method(Itower)``
+This event expects a ``void Method(Itower)``.
 The [ITower](../../VirtualStructures/Interfaces/Itower.md) is the one that initiated the attack.
 
 ##Subscribing
