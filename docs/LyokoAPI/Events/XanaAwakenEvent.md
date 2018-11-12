@@ -1,9 +1,8 @@
 #Xana Awaken Event
 This event is called when xana starts his attack.<br>
-*note: It's called by APISuperscan if it has been created.*
 
 ##Subscribing
 This event expects a ``void Method()``.
 
 ##Calling
-To call this event, you need to supply the ITower that started the attack.
+This event doesnt require any parameters.
