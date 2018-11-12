@@ -1,5 +1,5 @@
 #Xana Awaken Event
-This event is called when xana starts his attack.<br>
+This event is called when XANA starts his attack.<br>
 *note: It's called by APISuperscan if it has been created.*
 
 ##Subscribing
