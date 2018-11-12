@@ -5,5 +5,5 @@ This event is called when xana starts his attack.<br>
 ##Subscribing
 This event expects a ``void Method()``.
 
-##Subscribing
+##Calling
 To call this event, you need to supply the ITower that started the attack.
