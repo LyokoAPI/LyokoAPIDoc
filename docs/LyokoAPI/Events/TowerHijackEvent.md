@@ -5,7 +5,7 @@ This event is called when a tower goes from one activator to another
 ##Subscribing
 This event expects a
 ``void Method(Itower tower, APIActivator old, APIActivator new)``  
-(see [APIActivator](../../VirtualStructures/APIActivator.md) and [ITower](../../VirtualStructures/Interfaces/ITower.md))
+(see [APIActivator](../../VirtualStructures/APIActivator) and [ITower](../../VirtualStructures/Interfaces/ITower))
 
 ##Calling
 To call this method, you need to supply the ITower, new APIActivator and old APIActivator.  
