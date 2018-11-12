@@ -1,9 +1,8 @@
 # Welcome to the LyokoAPI Docs
 
-LyokoAPI is a project that aims to connect Applications with a Code Lyoko theme
-connect with each other, primarily in the form of Plugins.
+LyokoAPI is a project that aims to connect Applications with a Code Lyoko theme with each other, primarily in the form of Plugins.
 
-Cuurently, the target language is C#, but we're happy to host other languages in the future.
+Curently, the target language is C#, but we're happy to host other languages in the future.
 
 
 ## Contents
