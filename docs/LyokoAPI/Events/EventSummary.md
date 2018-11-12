@@ -68,7 +68,31 @@ Calling an event is simple:
 ``SomeEvent.Call(//parameters)``
 
 For example, you could do:
-```Java
+```csharp
 TowerDeactivationEvent.Call(new APITower("Lyoko","ice",1));
 ```
 You can find more examples on the specific event pages.
+
+##Locking
+As an ApplicationDev, you might not want Plugins to call events on their own. You can prevent this by locking specific events.<br>
+To ensure the events can only be locked and unlocked by you, you must call:
+```csharp
+Events.SetMaster()
+```
+You can lock all events with:
+```csharp
+Events.LockAll()
+```
+Or specific ones with:
+```csharp
+SomeEvent.Lock()
+```
+Of course,
+```csharp
+Events.UnlockAll()
+SomeEvent.Unlock()
+```
+Works as well.
+
+*note: LockAll() is simply an override. It'll lock all events regardless of their Lock status.*<br>
+*Similarly, UnlockAll() will not unlock Locked events.*
