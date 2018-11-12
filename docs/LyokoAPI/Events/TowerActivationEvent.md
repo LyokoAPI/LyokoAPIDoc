@@ -9,13 +9,13 @@ This events has a few parameters you can supply in Call().<br>
 There are important differences between them, so read carefully.<br>
 *note: It will not be called if the supplied tower isnt activated.*
 
-###Call with [ITower](../../VirtualStructures/Interfaces/ITower.md)
+###Call with [ITower](/LyokoAPI/VirtualStructures/Interfaces/ITower.md)
 *note: we dont generally recommend this*<br>
 You can call the event by supplying an implementation of ITower.<br>
 This assumes that the Activator is already set.<br>
 We only recommend this if you've chosen to base your Applications Tower class to implement ITower.
 
-###Call with [APITower](../../VirtualStructures/APITower.md), [APIActivator](/../../VirtualStructures/APIActivator.md)
+###Call with [APITower](/LyokoAPI/VirtualStructures/APITower.md), [APIActivator](/LyokoAPI/VirtualStructures/APIActivator.md)
 
 *Hint: The benefit of this method is that you're not giving direct access to your own Tower class, if thats what you want.*  
 
