@@ -1,5 +1,5 @@
 #APIActivator
-A person or entity that can activate and [ITower](./Interfaces/ITower.md)
+A person or entity that can activate an [ITower](./Interfaces/ITower.md)
 
 ##Values
 XANA, JEREMIE, HOPPER
