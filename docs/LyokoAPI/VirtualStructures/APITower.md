@@ -24,7 +24,7 @@ This means that the towers' vworld contains one sector, and that sector contains
 This class has it's own Equals method.
 However, it does not change the hash, so in a Hashmap or something similar, it will not follow the rules of Equals().
 
-An object is equal to 'this' APITower if these conditions are true:
-  * It's an ITower
-  * It's ISector has the same name
-  * It's IVirtualWorld has the same name
+An object is equal to 'this' APITower if these conditions are all true:<br>
+  * It's an ITower<br>
+  * It's ISector has the same name<br>
+  * It's IVirtualWorld has the same name<br>
