@@ -14,5 +14,5 @@ It will also write these to a file. You can see which file it logs to on the tit
 **This plugin is recommended for Plugin developers, not for Plugin users**
 
 ###Versions
-All versions, LyokoLogger is developed by the LAPI Dev's.
+All versions, LyokoLogger is developed by the LAPI Dev's.<br>
 ---
