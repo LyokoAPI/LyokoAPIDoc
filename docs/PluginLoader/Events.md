@@ -10,7 +10,7 @@ You can call the event with
 ```csharp
 GameStartEvent.Call(bool story = false);
 ```
-The boolean ``story`` sigifies wether or not the game-session is a 'story-mode'. What this means is largely application-dependant. <br>
+The boolean ``story`` sigifies whether or not the game-session is a 'story-mode'. What this means is largely application-dependant. <br>
 It's false unless stated otherwise.
 See [LyokoPlugin](../LyokoPlugin/introduction.md) for more info.
 ---
@@ -25,7 +25,7 @@ You can call it with:
 ```csharp
 GameEndEvent.Call(bool failed)
 ```
-The boolean ``failed`` signifies wether or not the user lost the game.
+The boolean ``failed`` signifies whether or not the user lost the game.
 See [LyokoPlugin](../LyokoPlugin/introduction.md) for more info.
 ---
 The event is mostly used by the PluginLoader, but if you want to use it in your own Application, you can.

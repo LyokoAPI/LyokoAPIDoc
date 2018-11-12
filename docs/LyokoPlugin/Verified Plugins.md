@@ -1,8 +1,10 @@
 #Introduction
-This list contains plugins that we verified as LAPI-Compliant.<br>
-That means that they follow the rules we have set, and that they dont malicious code.<br>
+This list contains plugins that have been verified as LAPI-Compliant.<br>
+That means that they follow the rules we have set, and that they don't contain malicious code.<br>
+Even if your plugin complies to the rules we have set,<br>
+LAPI Developers hold all rights to deny a Plugin to be added to Pluginlist<br>
 
-Do verify if the version of the plugin you're downloading is in the range of specified versions, for we've only checked those.<br>
+Do verify if the version of the plugin you're downloading is in the range of supported versions, for we've only checked those.<br>
 
 Regardless, we don't take any responsibility if it breaks.<br>
 
@@ -14,6 +16,6 @@ It will also write these to a file. You can see which file it logs to on the tit
 **This plugin is recommended for Plugin developers, not for Plugin users**
 
 ###Versions
-All versions, LyokoLogger is developed by the LAPI Dev's.<br>
+All versions, LyokoLogger is developed by the LAPI Devs.<br>
 
 ---
