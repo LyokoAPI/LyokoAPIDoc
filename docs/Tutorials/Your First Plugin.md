@@ -13,7 +13,7 @@ A class library is essentially a bunch of code that doesn't execute on it's own.
 Thus, it can't be used by itself. <br>
 For C#, a library is compiled into a .dll file.<br>
 *Fun fact: Windows uses dll's as well for its own use!*<br>
-*In theory, you can use the dll's in other .NET language like VB.NET*<br>
+*In theory, you can use the dll's in other .NET languages like VB.NET*<br>
 **Your Plugin must also be a class library**
 
 ##Referencing a class library
