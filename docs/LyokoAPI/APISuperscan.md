@@ -11,10 +11,10 @@ This is to ensure that everyone has access to the same 'database'.<br>
 We recommend getting or creating the object at the very beggining of your code.
 
 ##Properties
-The class contains 3 public lists:<br>
-  * XanaTowers
-  * JeremieTowers
-  * HopperTowers
+The class contains 3 public lists:
+  + XanaTowers
+  + JeremieTowers
+  + HopperTowers
 
 You can get all towers (that are active and that APISuperscan knows about) with:
 ```csharp

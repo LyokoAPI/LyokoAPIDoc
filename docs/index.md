@@ -7,6 +7,6 @@ Currently, the target language is C#, but we're happy to host other languages in
 
 ## Contents
 
-* **LyokoAPI** - The bridge between the Application and the Plugins.
-* **[LyokoPluginLoader](./PluginLoader/Loading Plugins.md)** - A way to load LAPI plugins into an Application.
-* **[Plugins](./LyokoPlugin/Verified Plugins.md)** - A general overview of Certified PluginsTM.
+  + **LyokoAPI** - The bridge between the Application and the Plugins.
+  + **[LyokoPluginLoader](./PluginLoader/Loading Plugins.md)** - A way to load LAPI plugins into an Application.
+  + **[Plugins](./LyokoPlugin/Verified Plugins.md)** - A general overview of Certified PluginsTM.
