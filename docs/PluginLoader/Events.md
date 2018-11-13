@@ -6,11 +6,11 @@ Learn more about Events: [EventSummary](../LyokoAPI/Events/EventSummary.md)
 ##GameStartEvent
 This event is to signify that a game-session has started.
 
-You can call the event with
+You can call the event with:
 ```csharp
 GameStartEvent.Call(bool story = false);
 ```
-The boolean ``story`` sigifies whether or not the game-session is a 'story-mode'. What this means is largely application-dependant. <br>
+The boolean ``story`` signifies whether or not the game-session is a 'story-mode'. What this means is largely application-dependant. <br>
 It's false unless stated otherwise.
 See [LyokoPlugin](../LyokoPlugin/introduction.md) for more info.
 ---

@@ -3,22 +3,22 @@ This class is an implementation of [ITower](./Interfaces/ITower.md)
 
 ##Properties
 Identical to [ITower](./Interfaces/ITower.md)
-with the following differences:<br>  
-  * Activator has a public setter<br>  
-  * Activated returns true if the Activator is not NONE<br>
+with the following differences:<br>
+  + Activator has a public setter<br>  
+  + Activated returns true if the Activator isn't NONE<br>
 
 ##Constructors
 This class has two constructors:
 ```csharp
 APITower(int number, ISector sector);
 ```
-this implies that the APITower belongs to an existing [ISector](./Interfaces/ISector.md).
+This implies that the APITower belongs to an existing [ISector](./Interfaces/ISector.md).
 
 ```csharp
 APITower(string vworld, string sector, int number);
 ```
-This not only creates a new APITower, **but it also creates a new ISector with a new IVirtualWorld**<br>
-This means that the towers' vworld contains one sector, and that sector contains this tower.
+This not only creates a new APITower, **but it also creates a new ISector with a new IVirtualWorld.**<br>
+This means that the towers' VirtualWorld contains one sector, and that sector contains this tower.
 
 ##Equals()
 This class has it's own Equals method.<br>

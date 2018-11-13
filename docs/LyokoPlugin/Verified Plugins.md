@@ -2,7 +2,7 @@
 This list contains plugins that have been verified as LAPI-Compliant.<br>
 That means that they follow the rules we have set, and that they don't contain malicious code.<br>
 Even if your plugin complies to the rules we have set,<br>
-LAPI Developers hold all rights to deny a Plugin to be added to Pluginlist<br>
+LAPI Developers hold all rights to deny a Plugin to be added to Plugin List<br>
 
 Do verify if the version of the plugin you're downloading is in the range of supported versions, for we've only checked those.<br>
 

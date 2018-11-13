@@ -1,14 +1,14 @@
 #APISuperscan
 APISuperscan is a helper class that contains some useful functions.<br>
-It's essentially a superscan that keeps track of the activated trowers.<br>
+It's essentially a superscan that keeps track of the activated towers.<br>
 
 You can get it with:
 ```csharp
 APISuperscan superscan = APISuperscan.GetOrCreate();
 ```
-As the name suggests, you will get either a new or existing object.<br>
+As the name suggests, you will get either a new or an existing object.<br>
 This is to ensure that everyone has access to the same 'database'.<br>
-We recommend getting or creating the object at the very start of your code.
+We recommend getting or creating the object at the very beggining of your code.
 
 ##Properties
 The class contains 3 public lists:<br>

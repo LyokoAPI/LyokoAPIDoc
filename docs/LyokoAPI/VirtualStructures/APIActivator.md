@@ -12,19 +12,20 @@ you can use LyokoParser.
 The methods below can also be applied to a specific activator, like ``APIActivator.XANA.Parse()``, although that's pretty silly to do.
 
 ###ParseActivator
-Accepts a string, returns an APIActivator<br>
+Accepts a string, returns an APIActivator. <br>
 Throws a FormatException if the string is invalid.
 ```csharp
 APIActivator activator;
 try{
   activator = LyokoParser.ParseActivator("XANA")
 }catch (FormatException e) {
-  LyokoLogger.Log(plugin.Name,e.Message); //will output something like 'Inalid activator: (activatorstring)'
+  LyokoLogger.Log(plugin.Name,e.Message); //will output something like 'Invalid activator: (activatorstring)!'
 }
 ```
 
 ###TryParseActivator
-Accepts a string, returns a boolean if its a valid Activator. If true, stores it in a given variable.
+Accepts a string, returns a boolean if it's a valid Activator.<br>
+If true, stores it in a given variable.
 ```csharp
 APIActivator activator;
 if (!LyokoParser.TryParseActivator("XANA", out activator)) {

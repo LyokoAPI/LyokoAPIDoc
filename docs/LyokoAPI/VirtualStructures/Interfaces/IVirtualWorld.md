@@ -1,8 +1,8 @@
 #IVirtualWorld
-An interface representing a Virtualworld
+An interface representing a VirtualWorld
 
 ##Properties
-*hint: all of these are read-only*<br>
-Name - the name of this IVirtualWorld<br>
-isLyoko - wether or not this world is Lyoko<br>
-Sectors - A list of [ISectors](./ISector.md) that belong to this IVirtualworld
+*Hint: All of these are read-only*<br>
+  + Name - the name of this IVirtualWorld.<br>
+  + `isLyoko` - whether or not this VirtualWorld is Lyoko.<br>
+  + Sectors - A list of [ISectors](./ISector.md) that belong to this IVirtualWorld.
