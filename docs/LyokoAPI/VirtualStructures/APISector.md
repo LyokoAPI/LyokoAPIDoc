@@ -10,9 +10,9 @@ This class has two constructors:
 ```csharp
 APISector(IVirtualWorld world, string name, int towers = 0);
 ```
-This implies that the sector belongs to an existing [IVirtualWorld](./Interfaces/IVirtualWorld.md).  
-If you supply an amount of towers, they will be created automatically,
-starting from 1 until the amount given.  
+This implies that the sector belongs to an existing [IVirtualWorld](./Interfaces/IVirtualWorld.md).<br>
+If you supply an amount of towers, they will be created automatically,<br>
+starting from 1 until the amount given.<br>
 **The sector will be automatically added to the Vworld if not already present**  
 Example:
 ```csharp

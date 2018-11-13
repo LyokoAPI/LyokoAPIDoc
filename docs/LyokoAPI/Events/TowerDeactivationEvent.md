@@ -5,7 +5,7 @@ This event expects a ``void Method(ITower tower)``<br>
 Since it uses an ITower, it's fairly read-only.
 
 ##Calling
-You can call this event with an implementation of [ITower](../../VirtualStructures/Interfaces/ITower).  
+You can call this event with an implementation of [ITower](../../VirtualStructures/Interfaces/ITower).<br> 
 That means you'll probably call it with APITower, like this:  
 ```csharp
 TowerDeactivationEvent.Call(new APITower("lyoko","ice",1));
