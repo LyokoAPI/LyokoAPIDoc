@@ -25,6 +25,8 @@ This class has it's own Equals method.<br>
 However, it does not change the hash, so in a Hashmap or something similar, it will not follow the rules of Equals().<br>
 
 An object is equal to 'this' APITower if these conditions are all true:<br>
-  * It's an ITower<br>
-  * It's ISector has the same name<br>
-  * It's IVirtualWorld has the same name<br>
+  <ul>
+    <li>It's an ITower</li>
+    <li>It's ISector has the same name</li>
+    <li>It's IVirtualWorld has the same name</li>
+  <ul>
