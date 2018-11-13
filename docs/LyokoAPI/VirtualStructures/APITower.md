@@ -3,7 +3,7 @@ This class is an implementation of [ITower](./Interfaces/ITower.md)
 
 ##Properties
 Identical to [ITower](./Interfaces/ITower.md)
-with the following differences:
+with the following differences:<br>
   + Activator has a public setter  
   + Activated returns true if the Activator isn't NONE
 
