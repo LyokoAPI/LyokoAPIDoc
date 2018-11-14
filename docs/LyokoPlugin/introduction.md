@@ -6,10 +6,13 @@ If you think your plugin conforms to all these rules, you can apply to get verif
 
 #Creating your Plugin
 To create your plugin, you will need the LyokoAPI.dll and reference to it in your project.<br>
+Your plugin must be a class library that is compatible with .NET Framework 3.5<br>
 How to do this depends on your IDE, but a short Google search will help you.
 
 You must declare one class that extends the LyokoPlugin class.<br>
 This will be recognized by the Application as your plugin.
+
+**see [the Tutorial](Your\ First\ Plugin.md) for a good example**
 
 ##OnEnable()
 This is the method that will 'start' your plugin.<br>
