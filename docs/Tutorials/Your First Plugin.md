@@ -1,6 +1,6 @@
 #Creating the plugin project
 In order to make a plugin, <br>
-create a new class library in your IDE (this should be easy to figure out using the GUI)
+create a new class library in your IDE (this should be easy to figure out using the GUI)<br>
 The target framework must be compatible with .NET Framwork 3.5 (this is compatible with Unity)<br>
 (example code can be found below)<br>
 
