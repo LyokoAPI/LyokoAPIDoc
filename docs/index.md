@@ -2,7 +2,8 @@
 
 LyokoAPI (LAPI) is a project that aims to connect Applications with a Code Lyoko theme to each other, primarily in the form of Plugins.
 
-Currently, the target language is C#, but we're happy to host other languages in the future.
+Currently, the target language is C# (Framework 3.5 for Unity compatibility).<br>
+Do contact us if you want to make an API in another language, we'd love to contribute!
 
 
 ## Contents
