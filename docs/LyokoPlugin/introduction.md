@@ -12,7 +12,7 @@ How to do this depends on your IDE, but a short Google search will help you.
 You must declare one class that extends the LyokoPlugin class.<br>
 This will be recognized by the Application as your plugin.
 
-**see [the Tutorial](../Tutorials/Your\ First\ Plugin.md) for a good example**
+**see [the Tutorial](../Tutorials/Your\ First\ Plugin) for a good example**
 
 ##OnEnable()
 This is the method that will 'start' your plugin.<br>
