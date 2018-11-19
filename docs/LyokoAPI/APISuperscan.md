@@ -12,9 +12,11 @@ We recommend getting or creating the object at the very beggining of your code.
 
 ##Properties
 The class contains 3 public lists:
-  + XanaTowers
-  + JeremieTowers
-  + HopperTowers
+<ul>
+  <li>XanaTowers</li>
+  <li>JeremieTowers</li>
+  <li>HopperTowers</li>
+<ul>
 
 You can get all towers (that are active and that APISuperscan knows about) with:
 ```csharp
