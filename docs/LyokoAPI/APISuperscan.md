@@ -16,7 +16,8 @@ The class contains 3 public lists:
   <li>XanaTowers</li>
   <li>JeremieTowers</li>
   <li>HopperTowers</li>
-<ul>
+<ul><br>
+
 
 You can get all towers (that are active and that APISuperscan knows about) with:
 ```csharp
