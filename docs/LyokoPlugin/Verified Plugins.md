@@ -19,3 +19,12 @@ It will also write these to a file. You can see which file it logs to on the tit
 All versions, LyokoLogger is developed by the LAPI Devs.<br>
 
 ---
+##[Ten's Superscanner](https://drive.google.com/file/d/1zlTfFo8J8lCrI2UCO-OgTn7Xo2m-zHcO/view?usp=sharing)
+This is a basic superscan plugin that outputs any LAPI events it detects to LyokoLogger plugin.<br>
+Not really useful to Plugin users, and is rather aimed for developers to see if their events work.
+
+###Versions
+Currently supports LyokoAPI v1.0.1<br>
+The plugin will be maintained to work with the most recent version.<br>
+
+---
