@@ -24,7 +24,7 @@ This is a basic superscan plugin that outputs any LAPI events it detects to Lyok
 Not really useful to Plugin users, and is rather aimed for developers to see if their events work.
 
 ###Versions
-Currently supports LyokoAPI v1.0.1<br>
+Currently supports LyokoAPI v1.0.2<br>
 The plugin will be maintained to work with the most recent version.<br>
 
 ---
