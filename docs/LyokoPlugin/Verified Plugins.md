@@ -28,3 +28,20 @@ Currently supports LyokoAPI v1.0.2<br>
 The plugin will be maintained to work with the most recent version.<br>
 
 ---
+##[LyokoAPP](https://github.com/KaruzoDEV/LyokoAPP)
+It's a project designed for LAPI - Phone interaction. Right now it sends push notifications of different game events.<br>
+It requires an app and the plugin itself, both included in the releases in GitHub.
+
+###Versions
+Currently supports LyokoAPI v1.1.0<br>
+The plugin will be maintained to work with the most recent version.<br>
+
+###Files SHA-256
+LyokoAPP_Plugin.dll: c601e4e42ee6dbc6e88fd37277f2fe95247619ac6505f875c919c365a1755868<br>
+LyokoAPP.apk: 18a43c0007eb6b8fdecd4909ee80cb62aa8a732ab148645fb02d04d914e1e6f8<br>
+
+###Virus scans
+LyokoAPP_Plugin.dll: https://www.virustotal.com/#/file/c601e4e42ee6dbc6e88fd37277f2fe95247619ac6505f875c919c365a1755868/detection
+LyokoAPP.apk: https://www.virustotal.com/#/file/18a43c0007eb6b8fdecd4909ee80cb62aa8a732ab148645fb02d04d914e1e6f8/detection
+Note: 1 false positive on the LyokoAPP.apk virus scan
+---
