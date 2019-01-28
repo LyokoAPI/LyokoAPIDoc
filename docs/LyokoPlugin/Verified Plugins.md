@@ -37,11 +37,11 @@ Currently supports LyokoAPI v1.1.0<br>
 The plugin will be maintained to work with the most recent version.<br>
 
 ###Files SHA-256
-LyokoAPP_Plugin.dll: 6fe6d2aa346a4d53869bc266349b124cf9e456cd6bfde33c2f395a9d21ee8c82<br>
+LyokoAPP_Plugin.dll: c601e4e42ee6dbc6e88fd37277f2fe95247619ac6505f875c919c365a1755868<br>
 LyokoAPP.apk: 18a43c0007eb6b8fdecd4909ee80cb62aa8a732ab148645fb02d04d914e1e6f8<br>
 
 ###Virus scans
-LyokoAPP_Plugin.dll: https://www.virustotal.com/#/file/6fe6d2aa346a4d53869bc266349b124cf9e456cd6bfde33c2f395a9d21ee8c82/detection
+LyokoAPP_Plugin.dll: https://www.virustotal.com/#/file/c601e4e42ee6dbc6e88fd37277f2fe95247619ac6505f875c919c365a1755868/detection
 LyokoAPP.apk: https://www.virustotal.com/#/file/18a43c0007eb6b8fdecd4909ee80cb62aa8a732ab148645fb02d04d914e1e6f8/detection
 Note: 1 false positive on the LyokoAPP.apk virus scan
 ---
