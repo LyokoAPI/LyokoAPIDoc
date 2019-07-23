@@ -16,16 +16,19 @@ It will also write these to a file. You can see which file it logs to on the tit
 **This plugin is recommended for Plugin developers, not for Plugin users**
 
 ###Versions
-All versions, LyokoLogger is developed by the LAPI Devs.<br>
+Currently supports LyokoAPI V1.1.0<br>
+Support for LyokoAPI V2.0.0 can be obtained from the V2 branch if built from source.
 
+*note: this plugin is developed by the LAPI dev team*
 ---
 ##[Ten's Superscanner](https://github.com/TenDRILLL/TenSuperscan)
 This is a basic superscan plugin that outputs any LAPI events it detects to LyokoLogger plugin.<br>
 Not really useful to Plugin users, and is rather aimed for developers to see if their events work.
 
 ###Versions
-The plugin will be maintained to work with the most recent version.<br>
+Currently supports LyokoAPI v1.1.0, possibly lower.<br>
 
+*note: this plugin is developed by the LAPI dev team*
 ---
 ##[LyokoAPP](https://github.com/KaruzoDEV/LyokoAPP)
 It's a project designed for LAPI - Phone interaction. Right now it sends push notifications of different game events.<br>
