@@ -14,6 +14,22 @@ This will be recognized by the Application as your plugin.
 
 **see [the Tutorial](../Tutorials/Your First Plugin) for a good example**
 
+#General rules
+In general a plugin must not be for any kind of cheating.<br>
+It must be open source (unless you can persuade us to make an exception).<br>
+It must also not harm, annoy or bother the user or cause interference with the Application.
+
+##Mandatory Properties
+These properties must be present in your LyokoAPIPlugin in order to be LAPI-Compliant:<br>
+<ul>
+  <li>Name: This is the name for your plugin. Preferably as unique as you can manage.</li>
+  <li>Author: The name of you, or you and your partners. Choose a name that can be found somewhere in order to contact you.</li>
+  <li>Version: The version of this plugin. Use a versioning system that makes sense, like [this one](http://apr.apache.org/versioning.html)</li>
+  <li>CompatibleLAPIVersions: a list of LAPI versions that this plugin is supposed to be compatible with.</li>
+</ul><br>
+You can find how to declare these properties in [the Tutorial](../Tutorials/Your First Plugin).
+
+
 ##OnEnable()
 This is the method that will 'start' your plugin.<br>
 In it, you should initialize all the variables you wish to use,
@@ -40,6 +56,19 @@ Please disable your plugin if it could break the story somehow, using ``this.Dis
 This method is called when a game session ends.<br>
 It also passes a boolean that tells you wether or not the user lost the game.<br>
 This method is particularly useful if you disabled your game because of Story Mode (see above).
+
+
+##OnInterfaceExit()
+*Note: This method assumes the Application has a concept of a interface (that is, a computer with access to lyoko) which can be entered or exited.*<br>
+This method is called when a user of the Application has left the interface, and thus can't see any information about Lyoko and such. (Example: Free Roam in IFSCL)<br>
+If a user is not supposed to receive information (eg when a tower is activated) at this time (as in, when away from the interface), you can use this method to disable information being displayed in your plugin. (You need to provide this functionality yourself, this method just tells you when to)
+
+
+##OnInterfaceEnter()
+*Note: same as above*<br>
+This method is called when a user of the Application has entered the interface, thus can see information about Lyoko and such.<br>
+If you disabled certain information from showing because of the method explained above, this is what you can use to re-enable it (again, you must provide this functionality yourself, this just tells you when)
+
 
 #Debugging your Plugin
 If you want to log something for debug purposes, or for error handling,
