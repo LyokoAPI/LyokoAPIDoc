@@ -78,6 +78,15 @@ public class MyPlugin : LyokoAPIPlugin  //Extend the LyokoAPIPlugin class
 
     MyListener.StartListening() //start listening because we stopped in OnGameEnd
   }
+  /*
+    this method runs when the player leaves the supercomputerinterface/laptop/whatever
+  */
+  public override void OnInterfaceExit(){
+    KeyboardRGB.Off(); //turn off the keyboard lights when leaving the interface (this method is just an example, it doesn't exist.)
+  }
+  public override void OnInterfaceEnter(){
+    KeyboardRGB.On(); //turn on the keyboard lights when coming back the interface (this method is just an example, it doesn't exist.)
+  }
 
 }
 ```
