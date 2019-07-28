@@ -16,19 +16,24 @@ For C#, a library is compiled into a .dll file.<br>
 *In theory, you can use the dll's in other .NET languages like VB.NET*<br>
 **Your Plugin must also be a class library**
 
+#Choosing an IDE
+We recommend Jetbrains' Rider. It's free if you have a student email, and once in a while an [Early Access Proram](https://www.jetbrains.com/rider/eap/) is available, which is also free.
 #Adding LAPI to your project
 
 ##Adding the Nuget package
 LAPI V2 and higher comes in a nuget package, found here: https://www.nuget.org/packages/LyokoAPI/ <br>
 A nuget package insures that you can easily update LAPI and that all it's required components, like YamlDotNet, are also installed automatically.<br>
 
+The method of adding a nuget package depends on your IDE. Here is some links to help you:
+[Rider](https://www.jetbrains.com/help/rider/Using_NuGet.html#finding)
+[Visual studio](https://dzone.com/articles/install-nuget-packages-in-visual-studio)
 
 <details>
-<summary>##Referencing a class library</summary>
-### WARNING: this approach is OBSOLTE since LAPI V2.0.0. Use the NUGET PACKAGE method instead
+<summary><h2>OBSOLETE: Referencing a class library</h2></summary>
+<h3>WARNING: this approach is OBSOLTE since LAPI V2.0.0. Use the NUGET PACKAGE method instead</h3>
 Adding a library (like LAPI) to your project is called referencing.<br>
-[Referencing in Visual Studio](https://www.webucator.com/how-to/how-add-references-your-visual-studio-project.cfm) (the 'browse' section)<br>
-[Referencing in Unity](https://answers.unity.com/questions/458300/how-to-use-a-external-dll.html)
+referencing in Visual studio: https://www.webucator.com/how-to/how-add-references-your-visual-studio-project.cfm (the 'browse' section)<br>
+Referencing in Unity: https://answers.unity.com/questions/458300/how-to-use-a-external-dll.html
 
 We recommend using the Early Access Program of [JetBrains' Rider](https://www.jetbrains.com/rider/eap/).<br>
 It's a renewable trial (lasts about a month), so it's essentially free.
