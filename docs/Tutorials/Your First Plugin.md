@@ -24,12 +24,12 @@ We recommend Jetbrains' Rider. It's free if you have a student email, and once i
 LAPI V2 and higher comes in a nuget package, found here: https://www.nuget.org/packages/LyokoAPI/ <br>
 A nuget package insures that you can easily update LAPI and that all it's required components, like YamlDotNet, are also installed automatically.<br>
 
-The method of adding a nuget package depends on your IDE. Here is some links to help you:
-[Rider](https://www.jetbrains.com/help/rider/Using_NuGet.html#finding)
+The method of adding a nuget package depends on your IDE. Here are some links to help you:
+[Rider](https://www.jetbrains.com/help/rider/Using_NuGet.html#finding)<br>
 [Visual studio](https://dzone.com/articles/install-nuget-packages-in-visual-studio)
 
 <details>
-<summary><h2>OBSOLETE: Referencing a class library</h2></summary>
+<summary>(expand)<h2>OBSOLETE: Referencing a class library</h2></summary>
 <h3>WARNING: this approach is OBSOLTE since LAPI V2.0.0. Use the NUGET PACKAGE method instead</h3>
 Adding a library (like LAPI) to your project is called referencing.<br>
 referencing in Visual studio: https://www.webucator.com/how-to/how-add-references-your-visual-studio-project.cfm (the 'browse' section)<br>
