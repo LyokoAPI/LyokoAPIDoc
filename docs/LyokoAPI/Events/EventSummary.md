@@ -55,8 +55,6 @@ public void StopListening(){
 
 
 ##Calling
-*Note for PluginDevs: Verify with the ApplicationDev whether or not you are allowed to call Events by yourself.*
-
 As an ApplicationDev, you'll want to notify your plugins (or other parts of your application) of certain events.<br>
 LAPI is designed to make this simple.<br>
 Do remember that if you pass an object, like a Tower to an event, listening methods will be able to change that object. <br>
@@ -74,27 +72,3 @@ For example, you could do:
 TowerDeactivationEvent.Call(new APITower("lyoko","ice",1));
 ```
 You can find more examples on the specific event pages.
-
-##Locking
-As an ApplicationDev, you might not want Plugins to call events on their own. You can prevent this by locking specific events.<br>
-To ensure the events can only be locked and unlocked by you, you must call:
-```csharp
-Events.SetMaster()
-```
-You can lock all events with:
-```csharp
-Events.LockAll()
-```
-Or specific ones with:
-```csharp
-SomeEvent.Lock()
-```
-Of course,
-```csharp
-Events.UnlockAll()
-SomeEvent.Unlock()
-```
-Works as well.
-
-*Note: LockAll() is simply an override. It'll lock all events regardless of their Lock status.*<br>
-*Similarly, UnlockAll() will not unlock individually locked events, only the ones locked by LockAll().*
