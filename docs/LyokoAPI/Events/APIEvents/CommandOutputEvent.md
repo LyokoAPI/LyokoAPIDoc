@@ -2,7 +2,7 @@
 This event is called whenever a command wants to send feedback to the user.
 
 ## Command class
-The [Command class](LyokoAPI\Commands\Command.md) has a built in method to call this event.
+The [Command class](LyokoAPI/Commands/Command.md) has a built in method to call this event.
 
 ## Calling
 This event takes two Strings: the name of the command, and the message.

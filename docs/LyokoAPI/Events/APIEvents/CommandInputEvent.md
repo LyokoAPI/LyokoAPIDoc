@@ -12,7 +12,7 @@ CommandInputEvent.Call(myCommand);
 ```
 
 ## CommandListener
-It's highly recommend for plugin developers to use the [CommandListener](LyokoAPI\Commands\CommandListener.md) to work with commands
+It's highly recommend for plugin developers to use the [CommandListener](LyokoAPI/Commands/CommandListener.md) to work with commands
 
 ## Subscribing
 This event supplies a string, being the complete command **without the "api." prefix.**

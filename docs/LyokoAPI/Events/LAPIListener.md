@@ -16,7 +16,7 @@ LAPIListener listener = new LAPIListener();
 listener.StartListening();
 ```
 
-Similarly, you can stop listening to events **(which you may have to according to the [Rules](LyokoPlugin\introduction.md))**: 
+Similarly, you can stop listening to events **(which you may have to according to the [Rules](LyokoPlugin/introduction.md))**: 
 ```csharp
 listener.StopListening()
 ```
