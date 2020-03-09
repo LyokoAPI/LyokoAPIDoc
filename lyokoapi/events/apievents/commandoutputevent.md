@@ -4,7 +4,7 @@ This event is called whenever a command wants to send feedback to the user.
 
 ## Command class
 
-The [Command class](https://github.com/LyokoAPI/LyokoAPIDoc/tree/fdb5e716f468c7556934771f257aae38e4ec78bc/docs/LyokoAPI/Events/APIEvents/LyokoAPI/Commands/Command.md) has a built in method to call this event.
+The [Command class](../../commands/command.md) has a built in method to call this event.
 
 ## Calling
 
@@ -19,10 +19,14 @@ The game will display it like this: `[LyokoDJ] music paused.`
 
 ## Listening
 
-This event supplies a string, being the complete output including the name of the sending command.
-
 **Only application devs should listen to this event.**
 
+{% tabs %}
+{% tab title="Recommended method" %}
+It's recommended to listen to this event with the [LAPIListener](../lapilistener.md)
+{% endtab %}
+
+{% tab title="DIY method" %}
 ```csharp
 public class DIYListener
 {
@@ -37,4 +41,6 @@ public class DIYListener
     }
 }
 ```
+{% endtab %}
+{% endtabs %}
 

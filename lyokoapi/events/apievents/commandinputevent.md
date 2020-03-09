@@ -15,22 +15,3 @@ CommandInputEvent.Call(myCommand);
 
 It's highly recommend for plugin developers to use the [CommandListener](https://github.com/LyokoAPI/LyokoAPIDoc/tree/fdb5e716f468c7556934771f257aae38e4ec78bc/docs/LyokoAPI/Events/APIEvents/LyokoAPI/Commands/CommandListener.md) to work with commands
 
-## Subscribing
-
-This event supplies a string, being the complete command **without the "api." prefix.**
-
-```csharp
-public class DIYListener
-{
-    public void StartListening()
-    {
-        CommandInputEvent.Subscribe(OnCommand);
-    }
-
-    public void OnCommand(string command)
-    {
-        //do something with command
-    }
-}
-```
-
