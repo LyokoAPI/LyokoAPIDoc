@@ -2,9 +2,9 @@
 
 The core of LAPI's workings' is the usage of events. These are messages that are typically sent by the Application, and processed by a Plugin. Here's an oversight of how they work.
 
-## Attention!
-
+{% hint style="danger" %}
 The documentation below is provided mostly for more advanced understanding of LAPI or special use cases. For simple handling of events, check out the documentation for [LAPIListener](lapilistener.md)
+{% endhint %}
 
 ## Listening
 

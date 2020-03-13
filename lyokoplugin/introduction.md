@@ -24,18 +24,30 @@ In general a plugin must not be for any kind of cheating.
  It must be open source \(unless you can persuade us to make an exception\).  
  It must also not harm, annoy or bother the user or cause interference with the Application.
 
-### Mandatory Properties
+## Mandatory Properties
 
 These properties must be present in your LyokoAPIPlugin in order to be LAPI-Compliant:  
 
 
-Name: This is the name for your plugin. Preferably as unique as you can manage.
+#### Name 
 
-Author: The name of you, or you and your partners. Choose a name that can be found somewhere in order to contact you.
+This is the name for your plugin. Preferably as unique as you can manage.
 
-Version: The version of this plugin. Use a versioning system that makes sense, like \[this one\]\(http://apr.apache.org/versioning.html\)
+#### Author
 
-CompatibleLAPIVersions: a list of LAPI versions that this plugin is supposed to be compatible with.
+The name of you, or you and your partners. Choose a name that can be found somewhere in order to contact you.
+
+#### Version
+
+The version of this plugin. Use a versioning system that makes sense, like \[this one\]\(http://apr.apache.org/versioning.html\).
+
+{% hint style="warning" %}
+The Version of the plugin is the AssemblyVersion in AssemblyInfo.cs by default. Please set it there.
+{% endhint %}
+
+#### CompatibleLAPIVersions 
+
+A list of LAPI versions that this plugin is supposed to be compatible with.
 
 ### OnEnable\(\)
 
@@ -93,6 +105,5 @@ It will appear in the log as "\[PluginName\] message".
  You can find a plugin that logs these messages to a Command Console window in the plugin list.
 
 However, if you want to make your own logging plugin, you can do so by subscribe to it with:  
- `LyokoLogger.Subscribe(method)`, it takes a `void Method(string message)`.   
-See [EventSummary]() for more info.
+ `LyokoLogger.Subscribe(method)`, it takes a `void Method(string message)`. 
 

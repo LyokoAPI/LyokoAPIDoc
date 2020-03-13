@@ -8,7 +8,7 @@ Generic Location is a class that unifies the different types of [ILocation](abst
 
 There are several methods you can use to find the real location type being the GenericLocation
 
-### GetLoccationType
+### GetLocationType
 
 This method will tell you the [LocationType](abstract/locationtype.md). It will return `API` if the Type is not `SECTOR` or `TOWER`.
 
