@@ -20,5 +20,9 @@ You can use the [LAPIListener](../lapilistener.md) to listen to this event.
 
 The LW's [Location](../../virtualentities/lyokowarrior/lyokowarrior.md#location) will be set to `APILocations.SCANNERS`, their [HP](../../virtualentities/lyokowarrior/lyokowarrior.md#hp) will be reset and their [Status ](../../virtualentities/lyokowarrior/lw_status.md)will be set to `LW_Status.EARTH`
 
+{% hint style="info" %}
+If the Lyokowarrior was the Rider or the Passenger of an [Overvehicle](../../virtualentities/overvehicle/overvehicle.md), it will be removed from the vehicle.
+{% endhint %}
+
 
 

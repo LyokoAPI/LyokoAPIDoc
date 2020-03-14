@@ -12,7 +12,9 @@ In order to write interesting plugins, we want to make things happen when certai
 
 More concrete, we are going to make code run when an event is 'called'. We call this 'Listening' or 'Subscribing' to an event.
 
+{% hint style="success" %}
 The easiest way to listen to events is using a [LAPIListener](lapilistener.md). You will find more in-depth explanation there.
+{% endhint %}
 
 ## Calling
 

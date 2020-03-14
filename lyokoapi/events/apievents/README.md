@@ -1,2 +1,2 @@
-# APIEvents
+# CommandEvents
 
