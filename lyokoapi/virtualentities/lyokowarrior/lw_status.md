@@ -9,10 +9,10 @@ The possible values are:
     TRANSLATED,
     VIRTUALIZED,
     XANAFIED,
-    PERMXANAFIED, //not used
+    PERMXANAFIED, 
     FRONTIERED,
     LOST,  //aka dead
+    DNACORRUPTED,
+    NOEARTHCODE
 ```
-
-**Note: the PERMXANAFIED status is currently unused**
 

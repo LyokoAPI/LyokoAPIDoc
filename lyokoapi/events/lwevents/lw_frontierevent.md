@@ -18,5 +18,5 @@ You can use the [LAPIListener](../lapilistener.md) to listen to this event.
 
 ## Effects
 
-Their [Status ](../../virtualentities/lyokowarrior/lw_status.md)will be set to `LW_Status.FRONTIERED` and their [Location ](../../virtualentities/lyokowarrior/lyokowarrior.md#location)will be set to `APILocations.FRONTIER`
+`LW_Status.FRONTIERED` will be added to their [Statuses](../../virtualentities/lyokowarrior/lw_status.md), [**LW\_DexanaficationEvent**](lw_dexanificationevent.md) **will be called if necessary** and their [Location ](../../virtualentities/lyokowarrior/lyokowarrior.md#location)will be set to `APILocations.FRONTIER`
 
