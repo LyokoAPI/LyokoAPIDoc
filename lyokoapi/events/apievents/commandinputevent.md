@@ -1,6 +1,16 @@
+---
+description: This event is called whenever a command is executed in the game.
+---
+
 # Command Input Event
 
-This event is called whenever a command is executed in the game. The commands can be prefixed by "api.", but LAPI automatically removes it before passing it to the plugins. **Only application devs should call this event, DO NOT call this from your plugin**
+{% hint style="success" %}
+The commands can be prefixed by "api.", but LAPI automatically removes it before passing it to the plugins.
+{% endhint %}
+
+{% hint style="danger" %}
+**As usual, only application devs should call this event, DO NOT call this from your plugin**
+{% endhint %}
 
 ## Calling
 

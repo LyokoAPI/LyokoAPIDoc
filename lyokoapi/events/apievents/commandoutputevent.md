@@ -1,6 +1,8 @@
-# Command Output Event
+---
+description: This event is called whenever a command wants to send feedback to the user.
+---
 
-This event is called whenever a command wants to send feedback to the user.
+# Command Output Event
 
 ## Command class
 

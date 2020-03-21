@@ -1,7 +1,14 @@
+---
+description: >-
+  This event is called when a tower goes from one activator to another. (for
+  example, Hopper taking over a tower from XANA)
+---
+
 # TowerHijack Event
 
-This event is called when a tower goes from one activator to another.  
- \(for example, Hopper taking over a tower from XANA\)
+{% hint style="warning" %}
+IFSCL currently doesn't implement this event well.
+{% endhint %}
 
 ## Subscribing
 
