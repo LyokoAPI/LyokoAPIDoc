@@ -34,3 +34,5 @@ It also has a boolean `IsXanaAttacking`,
  which is true if a [XanaAwakenEvent](events/annexevents/xanaawakenevent.md) has been logged \(by superscan\)  
  without a matching [XanaDefeatEvent](events/annexevents/xanadefeatevent.md).
 
+
+
