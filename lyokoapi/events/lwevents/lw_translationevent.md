@@ -18,5 +18,5 @@ You can use the [LAPIListener](../lapilistener.md) to listen to this event.
 
 ## Effects
 
-Their [Status ](../../virtualentities/lyokowarrior/lw_status.md)will be set to `LW_Status.TRANSLATED` and their [Location ](../../virtualentities/lyokowarrior/lyokowarrior.md#location)will be set to the given location.
+`LW_Status.TRANSLATED` will be added to their [Statuses ](../../virtualentities/lyokowarrior/lw_status.md)and their [Location ](../../virtualentities/lyokowarrior/lyokowarrior.md#location)will be set to the given location.
 

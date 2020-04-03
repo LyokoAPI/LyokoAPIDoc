@@ -22,6 +22,6 @@ You can use the [LAPIListener](../lapilistener.md) to listen to this event.
 
 ## Effects
 
-Their [Status ](../../virtualentities/lyokowarrior/lw_status.md)will be set to `LW_Status.VIRTUALIZED` and their [Location ](../../virtualentities/lyokowarrior/lyokowarrior.md#location)will be set to the given sector.  
+`LW_Status.VIRTUALIZED`will be added to their [Statuses](../../virtualentities/lyokowarrior/lw_status.md), and `LW_Status.EARTH` will be removed. Their [Location ](../../virtualentities/lyokowarrior/lyokowarrior.md#location)will be set to the given sector.  
 Their [HP ](../../virtualentities/lyokowarrior/lyokowarrior.md#hp)will also be set to max.
 

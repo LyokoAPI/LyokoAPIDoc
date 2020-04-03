@@ -79,5 +79,4 @@
 * [PluginLoader](pluginloader/README.md)
   * [Introduction](pluginloader/events.md)
   * [Creating the loader](pluginloader/loading-plugins.md)
-* [docs](docs.md)
 

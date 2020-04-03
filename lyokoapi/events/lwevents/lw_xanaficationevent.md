@@ -4,10 +4,6 @@ description: Called when a Lyokowarrior is xanafied
 
 # LW\_XanaficationEvent
 
-{% hint style="warning" %}
-Permanent Xanafication is currently not implemented in LAPI.
-{% endhint %}
-
 ## Calling 
 
 To call this event, you need to pass a [LyokoWarrior](../../virtualentities/lyokowarrior/).
@@ -22,5 +18,5 @@ You can use the [LAPIListener](../lapilistener.md) to listen to this event.
 
 ## Effects
 
-Their [Status ](../../virtualentities/lyokowarrior/lw_status.md)will be set to `LW_Status.XANAFIED`
+`LW_Status.XANAFIED` will be added to their [Statuses ](../../virtualentities/lyokowarrior/lw_status.md)
 
