@@ -52,4 +52,13 @@ It requires an app, downloadable in the Play Store and the App Store, and the pl
 
 **Latest verified version is ReplikAPP v1.1**  
 Currently supports LyokoAPI v1.1.0
-The plugin will be maintained to work with the most recent version.  
+The plugin will be maintained to work with the most recent version.
+
+#### File SHA-256
+
+ReplikAPP\_Plugin.dll: `f2c79914c1ba5b20b6ea3980e79a525d2ba146bb6ac3b1d4d443e829c3a01644`
+
+
+#### Virus scans
+
+ReplikAPP\_Plugin.dll: [Click here for the plugin's virus scan.](https://www.virustotal.com/gui/file/f2c79914c1ba5b20b6ea3980e79a525d2ba146bb6ac3b1d4d443e829c3a01644/detection)  
