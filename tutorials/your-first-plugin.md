@@ -22,7 +22,7 @@ LyokoAPI comes in the form of a class library.
 
 ## Choosing an IDE
 
-We recommend Jetbrains' Rider. It's free if you have a student email, and once in a while an [Early Access Proram](https://www.jetbrains.com/rider/eap/) is available, which is also free.
+We recommend Jetbrains' Rider. It's free if you have a student email, and once in a while an [Early Access Program](https://www.jetbrains.com/rider/eap/) is available, which is also free.
 
 ## Adding LAPI to your project
 
