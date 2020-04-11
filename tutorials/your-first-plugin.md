@@ -87,7 +87,7 @@ public class ExamplePlugin : LyokoAPIPlugin
 
         protected override bool OnDisable()
         {
-            MyListener.StartListening(); //Definitely stop listening to events OnDisable(), since code will still be run if you dont.
+            MyListener.StopListening(); //Definitely stop listening to events OnDisable(), since code will still be run if you dont.
             return true; //disabled succesfully, returning true.
         }
 
