@@ -8,7 +8,7 @@ description: Called when an overvehicle recieves damage
 
 To call this event, simply pass an [Overvehicle](../../virtualentities/overvehicle/overvehicle.md) and the damage as an `int`.
 
-```text
+```csharp
 OV_HurtEvent.Call(Overvehicles.OVERWING,10);
 ```
 

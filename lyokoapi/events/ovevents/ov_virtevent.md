@@ -8,7 +8,7 @@ description: called when an Overvehicle is virtualized
 
 To call this event, simply pass an [Overvehicle ](../../virtualentities/overvehicle/overvehicle.md)and an [ISector ](../../virtualstructures/interfaces/isector.md)or a [Lyokowarrior](../../virtualentities/lyokowarrior/lyokowarrior.md).
 
-```text
+```csharp
 OV_VirtEvent.Call(Overvehicles.OVERBIKE);
 ```
 

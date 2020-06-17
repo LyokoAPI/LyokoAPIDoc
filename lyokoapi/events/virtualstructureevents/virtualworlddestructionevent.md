@@ -8,7 +8,7 @@ description: Called when a Virtual World gets deleted
 
 To call this event, simply pass a string or an [IVirtualWorld](../../virtualstructures/interfaces/ivirtualworld.md).
 
-```text
+```csharp
 VirtualWorldDestructionEvent.Call("Lyoko");
 ```
 

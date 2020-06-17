@@ -8,7 +8,7 @@ description: Called when a Lyokowarrior starts riding an Overvehicle
 
 To call this event, simply pass an [Overvehicle ](../../virtualentities/overvehicle/overvehicle.md)and a [LyokoWarrior](../../virtualentities/lyokowarrior/lyokowarrior.md).
 
-```text
+```csharp
 OV_RideEvent.Call(Overvehicles.OVERBOARD,LyokoWarriors.ODD);
 OV_RideEvent.Call(Overvehicles.OVERBOARD,LyokoWarriors.AELITA);
 ```

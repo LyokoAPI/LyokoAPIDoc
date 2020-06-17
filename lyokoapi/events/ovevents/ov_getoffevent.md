@@ -8,7 +8,7 @@ description: Called when a Lyokowarrior dismounts an Overvehicle
 
 To call this event, simply pass an [Overvehicle ](../../virtualentities/overvehicle/overvehicle.md)and a [LyokoWarrior](../../virtualentities/lyokowarrior/lyokowarrior.md).
 
-```text
+```csharp
 OV_GetOffEvent.Call(Overvehicles.OVERBOARD,LyokoWarriors.ODD);
 OV_GetOffEvent.Call(Overvehicles.OVERBOARD,LyokoWarriors.AELITA);
 ```
