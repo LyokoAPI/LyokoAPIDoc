@@ -1,38 +1,44 @@
-#Creating the plugin project
-In order to make a plugin, <br>
-create a new class library in your IDE (this should be easy to figure out using the GUI)<br>
-The target framework must be compatible with .NET Framwork 3.5 (this is compatible with Unity)<br>
-(example code can be found below)<br>
+# Your First Plugin
 
-Once you compile the project, you'll find it's dll file in a directory like bin/debug/
-This is the file you can drop in the Plugins folder of the Application.
+## Creating the plugin project
 
-#Understanding class libraries
-LyokoAPI comes in the form of a class library. <br>
-A class library is essentially a bunch of code that doesn't execute on it's own.<br>
-Thus, it can't be used by itself. <br>
-For C#, a library is compiled into a .dll file.<br>
-*Fun fact: Windows uses dll's as well for its own use!*<br>
-*In theory, you can use the dll's in other .NET languages like VB.NET*<br>
-**Your Plugin must also be a class library**
+In order to make a plugin,   
+ create a new class library in your IDE \(this should be easy to figure out using the GUI\)  
+ The target framework must be compatible with .NET Framwork 3.5 \(this is compatible with Unity\)  
+ \(example code can be found below\)  
 
-##Referencing a class library
-Adding a library (like LAPI) to your project is called referencing.<br>
-[Referencing in Visual Studio](https://www.webucator.com/how-to/how-add-references-your-visual-studio-project.cfm) (the 'browse' section)<br>
-[Referencing in Unity](https://answers.unity.com/questions/458300/how-to-use-a-external-dll.html)
 
-We recommend using the Early Access Program of [JetBrains' Rider](https://www.jetbrains.com/rider/eap/).<br>
-It's a renewable trial (lasts about a month), so it's essentially free.
+Once you compile the project, you'll find it's dll file in a directory like bin/debug/ This is the file you can drop in the Plugins folder of the Application.
 
-To add a reference in Rider:<br>
-(Right click project) -> add reference -> add from.. -> select LyokoAPI.dll
+## Understanding class libraries
 
-#Writing your plugin
-There are of course, many ways to write a plugin,<br>
-but here is a 'template' that you can take inspiration from.
-See [Plugin Introduction](../LyokoPlugin/introduction) for more in-depth info.
+LyokoAPI comes in the form of a class library.   
+ A class library is essentially a bunch of code that doesn't execute on it's own.  
+ Thus, it can't be used by itself.   
+ For C\#, a library is compiled into a .dll file.  
+ _Fun fact: Windows uses dll's as well for its own use!_  
+ _In theory, you can use the dll's in other .NET languages like VB.NET_  
+ **Your Plugin must also be a class library**
 
-##Main class
+### Referencing a class library
+
+Adding a library \(like LAPI\) to your project is called referencing.  
+ [Referencing in Visual Studio](https://www.webucator.com/how-to/how-add-references-your-visual-studio-project.cfm) \(the 'browse' section\)  
+ [Referencing in Unity](https://answers.unity.com/questions/458300/how-to-use-a-external-dll.html)
+
+We recommend using the Early Access Program of [JetBrains' Rider](https://www.jetbrains.com/rider/eap/).  
+ It's a renewable trial \(lasts about a month\), so it's essentially free.
+
+To add a reference in Rider:  
+ \(Right click project\) -&gt; add reference -&gt; add from.. -&gt; select LyokoAPI.dll
+
+## Writing your plugin
+
+There are of course, many ways to write a plugin,  
+ but here is a 'template' that you can take inspiration from. See [Plugin Introduction](https://github.com/LyokoAPI/LyokoAPIDoc/tree/87c9dac8253d28d7c075a9d7d2f881dc75f76a21/docs/LyokoPlugin/introduction/README.md) for more in-depth info.
+
+### Main class
+
 Only ONE class per plugin should extend LyokoAPIPlugin.
 
 ```csharp
@@ -80,7 +86,8 @@ public class MyPlugin : LyokoAPIPlugin  //Extend the LyokoAPIPlugin class
 }
 ```
 
-##Listener class
+### Listener class
+
 You dont need a seperate Listener class, but it looks clean and it's what we usually use internally.
 
 ```csharp
@@ -150,3 +157,4 @@ public static class Listener
 
 }
 ```
+
