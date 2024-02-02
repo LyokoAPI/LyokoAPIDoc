@@ -43,27 +43,22 @@ Currently supports LyokoAPI v1.1.0, possibly lower.
 This plugin is developed by the LAPI dev team
 {% endhint %}
 
-### [LyokoAPP](https://github.com/KaruzoDEV/LyokoAPP)
+### [ReplikAPP](https://github.com/KaruzoDEV/ReplikAPP)
 
 It's a project designed for LAPI - Phone interaction. Right now it sends push notifications of different game events.  
- It requires an app and the plugin itself, both included in the releases in GitHub.
+It requires an app, downloadable in the Play Store and the App Store, and the plugin itself, included in the releases in GitHub.
 
 #### Versions
 
-**Latest verified version is LyokoAPP v0.2**  
-Currently supports LyokoAPI v1.1.0  
-The plugin will be maintained to work with the most recent version.  
+**Latest verified version is ReplikAPP v1.1**  
+Currently supports LyokoAPI v1.1.0
+The plugin will be maintained to work with the most recent version.
 
+#### File SHA-256
 
-#### Files SHA-256
-
-LyokoAPP\_Plugin.dll: `c601e4e42ee6dbc6e88fd37277f2fe95247619ac6505f875c919c365a1755868`  
-LyokoAPP.apk: `18a43c0007eb6b8fdecd4909ee80cb62aa8a732ab148645fb02d04d914e1e6f8`  
+ReplikAPP\_Plugin.dll: `f2c79914c1ba5b20b6ea3980e79a525d2ba146bb6ac3b1d4d443e829c3a01644`
 
 
 #### Virus scans
 
-LyokoAPP\_Plugin.dll: [Click here for the plugin's virus scan.](https://www.virustotal.com/#/file/c601e4e42ee6dbc6e88fd37277f2fe95247619ac6505f875c919c365a1755868/detection)  
-LyokoAPP.apk: [Click here for the app's virus scan.](https://www.virustotal.com/#/file/18a43c0007eb6b8fdecd4909ee80cb62aa8a732ab148645fb02d04d914e1e6f8/detection) _\(Note: 1 false positive on the LyokoAPP.apk virus scan.\)_  
-
-
+ReplikAPP\_Plugin.dll: [Click here for the plugin's virus scan.](https://www.virustotal.com/gui/file/f2c79914c1ba5b20b6ea3980e79a525d2ba146bb6ac3b1d4d443e829c3a01644/detection)  
