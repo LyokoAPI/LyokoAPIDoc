@@ -2,40 +2,39 @@
 
 ## Creating the plugin project
 
-In order to make a plugin,   
- create a new class library in your IDE \(this should be easy to figure out using the GUI\)  
- The target framework must be compatible with .NET Framwork 3.5 \(this is compatible with Unity\)  
- \(example code can be found below\)  
-
+In order to make a plugin, \
+&#x20;create a new class library in your IDE (this should be easy to figure out using the GUI)\
+&#x20;The target framework must be compatible with .NET Framwork 3.5 (this is compatible with Unity)\
+&#x20;(example code can be found below)<br>
 
 Once you compile the project, you'll find it's dll file in a directory like bin/debug/ This is the file you can drop in the Plugins folder of the Application.
 
 ## Understanding class libraries
 
-LyokoAPI comes in the form of a class library.   
- A class library is essentially a bunch of code that doesn't execute on it's own.  
- Thus, it can't be used by itself.   
- For C\#, a library is compiled into a .dll file.  
- _Fun fact: Windows uses dll's as well for its own use!_  
- _In theory, you can use the dll's in other .NET languages like VB.NET_  
- **Your Plugin must also be a class library**
+LyokoAPI comes in the form of a class library. \
+&#x20;A class library is essentially a bunch of code that doesn't execute on it's own.\
+&#x20;Thus, it can't be used by itself. \
+&#x20;For C#, a library is compiled into a .dll file.\
+&#x20;_Fun fact: Windows uses dll's as well for its own use!_\
+&#x20;_In theory, you can use the dll's in other .NET languages like VB.NET_\
+&#x20;**Your Plugin must also be a class library**
 
 ### Referencing a class library
 
-Adding a library \(like LAPI\) to your project is called referencing.  
- [Referencing in Visual Studio](https://www.webucator.com/how-to/how-add-references-your-visual-studio-project.cfm) \(the 'browse' section\)  
- [Referencing in Unity](https://answers.unity.com/questions/458300/how-to-use-a-external-dll.html)
+Adding a library (like LAPI) to your project is called referencing.\
+&#x20;[Referencing in Visual Studio](https://learn.microsoft.com/en-us/visualstudio/ide/managing-references-in-a-project?view=visualstudio) (the 'browse' section)\
+&#x20;[Referencing in Unity](https://answers.unity.com/questions/458300/how-to-use-a-external-dll.html)
 
-We recommend using the Early Access Program of [JetBrains' Rider](https://www.jetbrains.com/rider/eap/).  
- It's a renewable trial \(lasts about a month\), so it's essentially free.
+We recommend using the Early Access Program of [JetBrains' Rider](https://www.jetbrains.com/rider/eap/).\
+&#x20;It's a renewable trial (lasts about a month), so it's essentially free.
 
-To add a reference in Rider:  
- \(Right click project\) -&gt; add reference -&gt; add from.. -&gt; select LyokoAPI.dll
+To add a reference in Rider:\
+&#x20;(Right click project) -> add reference -> add from.. -> select LyokoAPI.dll
 
 ## Writing your plugin
 
-There are of course, many ways to write a plugin,  
- but here is a 'template' that you can take inspiration from. See [Plugin Introduction](https://github.com/LyokoAPI/LyokoAPIDoc/tree/87c9dac8253d28d7c075a9d7d2f881dc75f76a21/docs/LyokoPlugin/introduction/README.md) for more in-depth info.
+There are of course, many ways to write a plugin,\
+&#x20;but here is a 'template' that you can take inspiration from. See [Plugin Introduction](https://github.com/LyokoAPI/LyokoAPIDoc/tree/87c9dac8253d28d7c075a9d7d2f881dc75f76a21/docs/LyokoPlugin/introduction/README.md) for more in-depth info.
 
 ### Main class
 
@@ -157,4 +156,3 @@ public static class Listener
 
 }
 ```
-

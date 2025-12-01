@@ -1,8 +1,7 @@
 # APISuperscan
 
-APISuperscan is a helper class that contains some useful functions.  
- It's essentially a superscan that keeps track of the activated towers.  
-
+APISuperscan is a helper class that contains some useful functions.\
+&#x20;It's essentially a superscan that keeps track of the activated towers.<br>
 
 You can get it with:
 
@@ -10,9 +9,9 @@ You can get it with:
 APISuperscan superscan = APISuperscan.GetOrCreate();
 ```
 
-As the name suggests, you will get either a new or an existing object.  
- This is to ensure that everyone has access to the same 'database'.  
- We recommend getting or creating the object at the very beggining of your code.
+As the name suggests, you will get either a new or an existing object.\
+&#x20;This is to ensure that everyone has access to the same 'database'.\
+&#x20;We recommend getting or creating the object at the very beggining of your code.
 
 ## Properties
 
@@ -24,13 +23,12 @@ JeremieTowers
 
 HopperTowers
 
-You can get all towers \(that are active and that APISuperscan knows about\) with:
+You can get all towers (that are active and that APISuperscan knows about) with:
 
 ```csharp
 IEnumerable alltowers = superscan.GetAllRegisteredTowers();
 ```
 
-It also has a boolean `IsXanaAttacking`,   
- which is true if a [XanaAwakenEvent](events/xanaawakenevent.md) has been logged \(by superscan\)  
- without a matching [XanaDefeatEvent](events/xanadefeatevent.md).
-
+It also has a boolean `IsXanaAttacking`, \
+&#x20;which is true if a [XanaAwakenEvent](events/xanaawakenevent.md) has been logged (by superscan)\
+&#x20;without a matching [XanaDefeatEvent](events/xanadefeatevent.md).

@@ -1,7 +1,6 @@
 # APIVirtualWorld
 
-This class implements [IVirtualWorld](interfaces/ivirtualworld.md).  
-
+This class implements [IVirtualWorld](interfaces/ivirtualworld.md).<br>
 
 ## Constructors
 
@@ -11,6 +10,5 @@ This class has one constructor:
 APIVirtualWorld(string worldname, params ISector[] sectors)
 ```
 
-If the supplied name is "lyoko", `isLyoko` will be set to `true`.  
- _Hint: The_ **params** _keyword in C\# means you can supply 0 or more arguments, separated by commas\)._
-
+If the supplied name is "lyoko", `isLyoko` will be set to `true`.\
+&#x20;_Hint: The_ **params** _keyword in C# means you can supply 0 or more arguments, separated by commas)._

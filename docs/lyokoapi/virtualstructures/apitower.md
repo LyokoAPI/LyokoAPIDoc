@@ -23,15 +23,13 @@ This implies that the APITower belongs to an existing [ISector](interfaces/isect
 APITower(string vworld, string sector, int number);
 ```
 
-This not only creates a new APITower, **but it also creates a new ISector with a new IVirtualWorld.**  
- This means that the towers' VirtualWorld contains one sector, and that sector contains this tower.
+This not only creates a new APITower, **but it also creates a new ISector with a new IVirtualWorld.**\
+&#x20;This means that the towers' VirtualWorld contains one sector, and that sector contains this tower.
 
-## Equals\(\)
+## Equals()
 
-This class has it's own Equals method.  
- However, it does not change the hash, so in a Hashmap or something similar, it will not follow the rules of Equals\(\).  
+This class has it's own Equals method.\
+&#x20;However, it does not change the hash, so in a Hashmap or something similar, it will not follow the rules of Equals().<br>
 
-
-An object is equal to 'this' APITower if these conditions are all true:  
-     
-
+An object is equal to 'this' APITower if these conditions are all true:\
+&#x20;   &#x20;
