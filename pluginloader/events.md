@@ -2,7 +2,7 @@
 
 If your application has a concept of Games or Game Sessions, the LyokoPluginLoader provides two events to let the plugins know of the state of the current Session.
 
-Learn more about Events: [EventSummary]()
+Learn more about Events: [EventSummary](/broken/pages/-LzNL9HsUfnqvKRiTIV_)
 
 ## GameStartEvent
 
@@ -14,8 +14,8 @@ You can call the event with:
 GameStartEvent.Call(bool story = false);
 ```
 
-The boolean `story` signifies whether or not the game-session is a 'story-mode'. What this means is largely application-dependant.   
- It's false unless stated otherwise.
+The boolean `story` signifies whether or not the game-session is a 'story-mode'. What this means is largely application-dependant. \
+&#x20;It's false unless stated otherwise.
 
 ## See [LyokoPlugin](../lyokoplugin/introduction.md) for more info.
 
@@ -27,8 +27,8 @@ GameStartEvent.Subscribe(void Method(bool story))
 
 ## GameEndEvent
 
-This event is to signify that a game-session has ended.   
- You can call it with:
+This event is to signify that a game-session has ended. \
+&#x20;You can call it with:
 
 ```csharp
 GameEndEvent.Call(bool failed)
@@ -43,4 +43,3 @@ The event is mostly used by the PluginLoader, but if you want to use it in your 
 ```csharp
 GameStartEvent.Subscribe(void Method(bool failed))
 ```
-

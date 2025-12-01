@@ -21,14 +21,13 @@ LAPIListener listener = new LAPIListener();
 listener.StartListening();
 ```
 
-Similarly, you can stop listening to events **\(which you may have to according to the** [**Rules**](https://github.com/LyokoAPI/LyokoAPIDoc/tree/fdb5e716f468c7556934771f257aae38e4ec78bc/docs/LyokoAPI/Events/LyokoPlugin/introduction.md)**\)**:
+Similarly, you can stop listening to events **(which you may have to according to the** [**Rules**](https://github.com/LyokoAPI/LyokoAPIDoc/tree/fdb5e716f468c7556934771f257aae38e4ec78bc/docs/LyokoAPI/Events/LyokoPlugin/introduction.md)**)**:
 
 ```csharp
 listener.StopListening()
 ```
 
-To listen to a specific event, override it's method:  
-
+To listen to a specific event, override it's method:<br>
 
 ```csharp
 public class MyExampleListener : LAPIListener
@@ -45,4 +44,3 @@ The details about each event can be found in the rest of the documentation.
 {% hint style="info" %}
 You can find a list of events that the LAPIListener currently supports by checking out the class itself on github. For the master branch, this is: [https://github.com/LyokoAPI/LyokoAPI/blob/master/LyokoAPI/API/LAPIListener.cs](https://github.com/LyokoAPI/LyokoAPI/blob/master/LyokoAPI/API/LAPIListener.cs)
 {% endhint %}
-

@@ -6,7 +6,7 @@ description: Called when a Return To The Past happens
 
 ## Calling
 
-```text
+```
 RTTPEvent.Call();
 ```
 
@@ -16,5 +16,4 @@ You can use the [LAPIListener](lapilistener.md) to listen to this event.
 
 ## Effects
 
-Depends on the application. By default it has no effects. ``
-
+Depends on the application. By default it has no effects.&#x20;

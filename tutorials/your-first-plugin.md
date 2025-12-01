@@ -2,23 +2,22 @@
 
 ## Creating the plugin project
 
-In order to make a plugin,   
- create a new class library in your IDE \(this should be easy to figure out using the GUI\)  
- The target framework must be compatible with .NET Framwork 3.5 \(this is compatible with Unity\)  
- \(example code can be found below\)  
-
+In order to make a plugin, \
+&#x20;create a new class library in your IDE (this should be easy to figure out using the GUI)\
+&#x20;The target framework must be compatible with .NET Framwork 3.5 (this is compatible with Unity)\
+&#x20;(example code can be found below)<br>
 
 Once you compile the project, you'll find it's dll file in a directory like bin/debug/ This is the file you can drop in the Plugins folder of the Application.
 
 ## Understanding class libraries
 
-LyokoAPI comes in the form of a class library.   
- A class library is essentially a bunch of code that doesn't execute on it's own.  
- Thus, it can't be used by itself.   
- For C\#, a library is compiled into a .dll file.  
- _Fun fact: Windows uses dll's as well for its own use!_  
- _In theory, you can use the dll's in other .NET languages like VB.NET_  
- **Your Plugin must also be a class library**
+LyokoAPI comes in the form of a class library. \
+&#x20;A class library is essentially a bunch of code that doesn't execute on it's own.\
+&#x20;Thus, it can't be used by itself. \
+&#x20;For C#, a library is compiled into a .dll file.\
+&#x20;_Fun fact: Windows uses dll's as well for its own use!_\
+&#x20;_In theory, you can use the dll's in other .NET languages like VB.NET_\
+&#x20;**Your Plugin must also be a class library**
 
 ## Choosing an IDE
 
@@ -30,11 +29,13 @@ We recommend Jetbrains' Rider. It's free if you have a student email, and once i
 {% tab title="Nuget" %}
 ### Adding the Nuget package
 
-LAPI V2 and higher comes in a nuget package, found here: [https://www.nuget.org/packages/LyokoAPI/](https://www.nuget.org/packages/LyokoAPI/)   
- A nuget package insures that you can easily update LAPI and that all it's required components, like YamlDotNet, are also installed automatically
+LAPI V2 and higher comes in a nuget package, found here: [https://www.nuget.org/packages/LyokoAPI/](https://www.nuget.org/packages/LyokoAPI/) \
+&#x20;A nuget package insures that you can easily update LAPI and that all it's required components, like YamlDotNet, are also installed automatically
 
-The method of adding a nuget package depends on your IDE. Here are some links to help you: [Rider](https://www.jetbrains.com/help/rider/Using_NuGet.html#finding)  
+The method of adding a nuget package depends on your IDE. Here are some links to help you: [Rider](https://www.jetbrains.com/help/rider/Using_NuGet.html#finding)\
 [Visual studio](https://dzone.com/articles/install-nuget-packages-in-visual-studio)
+
+
 {% endtab %}
 
 {% tab title="Manual" %}
@@ -46,18 +47,20 @@ The method of adding a nuget package depends on your IDE. Here are some links to
 
 #### this approach is OBSOLTE since LAPI V2.0.0. Use the NUGET PACKAGE method instead
 
- Adding a library \(like LAPI\) to your project is called referencing.  
- referencing in Visual studio: https://www.webucator.com/how-to/how-add-references-your-visual-studio-project.cfm \(the 'browse' section\)  
- Referencing in Unity: https://answers.unity.com/questions/458300/how-to-use-a-external-dll.html We recommend using the Early Access Program of \[JetBrains' Rider\]\(https://www.jetbrains.com/rider/eap/\).  
- It's a renewable trial \(lasts about a month\), so it's essentially free. To add a reference in Rider:  
- \(Right click project\) -&gt; add reference -&gt; add from.. -&gt; select LyokoAPI.dll
+&#x20;Adding a library (like LAPI) to your project is called referencing.\
+&#x20;referencing in Visual studio: https://www.webucator.com/how-to/how-add-references-your-visual-studio-project.cfm (the 'browse' section)\
+&#x20;Referencing in Unity: https://answers.unity.com/questions/458300/how-to-use-a-external-dll.html We recommend using the Early Access Program of \[JetBrains' Rider]\(https://www.jetbrains.com/rider/eap/).\
+&#x20;It's a renewable trial (lasts about a month), so it's essentially free. To add a reference in Rider:\
+&#x20;(Right click project) -> add reference -> add from.. -> select LyokoAPI.dll
+
+
 {% endtab %}
 {% endtabs %}
 
 ## Writing your plugin
 
-There are of course, many ways to write a plugin,  
- but here is a 'template' that you can take inspiration from. See [Plugin Introduction](https://github.com/LyokoAPI/LyokoAPIDoc/tree/fdb5e716f468c7556934771f257aae38e4ec78bc/docs/LyokoPlugin/introduction/README.md) for more in-depth info on the rules of writing a good plugin.
+There are of course, many ways to write a plugin,\
+&#x20;but here is a 'template' that you can take inspiration from. See [Plugin Introduction](https://github.com/LyokoAPI/LyokoAPIDoc/tree/fdb5e716f468c7556934771f257aae38e4ec78bc/docs/LyokoPlugin/introduction/README.md) for more in-depth info on the rules of writing a good plugin.
 
 ### Main class
 
@@ -150,6 +153,4 @@ public class MyListener : LAPIListener
 {% endcode %}
 {% endtab %}
 {% endtabs %}
-
-
 
