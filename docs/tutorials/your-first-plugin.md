@@ -34,7 +34,7 @@ To add a reference in Rider:\
 ## Writing your plugin
 
 There are of course, many ways to write a plugin,\
-&#x20;but here is a 'template' that you can take inspiration from. See [Plugin Introduction](https://github.com/LyokoAPI/LyokoAPIDoc/tree/87c9dac8253d28d7c075a9d7d2f881dc75f76a21/docs/LyokoPlugin/introduction/README.md) for more in-depth info.
+&#x20;but here is a 'template' that you can take inspiration from. See [Plugin Introduction](../lyokoplugin/introduction.md) for more in-depth info.
 
 ### Main class
 
