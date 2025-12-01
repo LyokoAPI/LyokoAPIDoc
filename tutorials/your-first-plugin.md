@@ -60,7 +60,7 @@ The method of adding a nuget package depends on your IDE. Here are some links to
 ## Writing your plugin
 
 There are of course, many ways to write a plugin,\
-&#x20;but here is a 'template' that you can take inspiration from. See [Plugin Introduction](https://github.com/LyokoAPI/LyokoAPIDoc/tree/fdb5e716f468c7556934771f257aae38e4ec78bc/docs/LyokoPlugin/introduction/README.md) for more in-depth info on the rules of writing a good plugin.
+&#x20;but here is a 'template' that you can take inspiration from. See [Plugin Introduction](../lyokoplugin/introduction.md) for more in-depth info on the rules of writing a good plugin.
 
 ### Main class
 
